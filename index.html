@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<link rel="stylesheet" href="css/ui-darkness/jquery-ui-1.8.16.custom.css" />
+	<link rel="stylesheet" href="css/screen.css" />
+
+	<script src="js/mod/jquery-1.6.2.min.js"></script>
+	<script src="js/mod/jquery-ui-1.8.16.custom.min.js"></script>
+
+	<!-- load iecanvas.js here if IE -->
+	<script src="js/app/system.js"></script>
+	<script src="js/app/jigglewriter.js"></script>
+	<script src="js/app/harvester.js"></script>
+	<script src="js/app/main.js"></script>
+
+	<title>sprky0 demos : jigglewriter</title>
+
+</head>
+<body>
+
+	<div id="draw"></div>
+	<div id="controls" class="panel">
+
+		<label>S</label><span class="slider" name="range" id="control_range">single,10,1,200,range</span>
+		<label>J</label><span class="slider" name="range" id="control_range">single,10,1,1000,janglyness</span>
+		<label class="red">R</label><span class="slider" name="R" id="control_R">range,10,100,0,255,MIN_R,MAX_R</span>
+		<label class="green">G</label><span class="slider" name="G" id="control_G">range,10,100,0,255,MIN_G,MAX_G</span>
+		<label class="blue">B</label><span class="slider" name="B" id="control_B">range,10,100,0,255,MIN_B,MAX_B</span>
+		<label>A</label><span class="slider" name="A" id="control_A">range,500,1000,0,1000,MIN_A,MAX_A</span>
+
+	</div>
+
+	<div id="buttons" class="panel">
+
+		<button id="download">Download</button>
+		<button id="hide">Hide Controls</button>
+
+	</div>
+
+
+</body>
+</html>

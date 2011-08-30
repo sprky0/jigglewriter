@@ -1,0 +1,15 @@
+
+Jigglewriter
+
+To install this in its complete form copy the file:
+
+	images/config.sample.php
+
+	to:
+
+	images/config.php
+
+Edit the values in there as you wish.
+
+
+

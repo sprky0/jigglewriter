@@ -1,0 +1,94 @@
+
+html, body {width: 100%; height: 100%; padding: 0; margin: 0;}
+
+#draw {
+	border: 0; margin: 0; padding: 0;
+	display: block; z-index: 1;
+	position: absolute; top: 0; left: 0;
+	width: 100%; height: 100%;
+}
+
+#process {
+	border: 0; margin: 0; padding: 0;
+	display: block; z-index: 2;
+	position: absolute; top: 0; left: 0;
+	width: 100%; height: 100%;	
+}
+
+.panel {
+	margin: 0; padding: 10px;
+	display: block; z-index: 2;
+
+	border-top: 1px solid #ddd;
+	border-right: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;
+	border-left: 1px solid #ddd;
+
+	border-radius: 5px;	-moz-border-radius: 5px; -webkit-border-radius: 5px;
+
+	background: #ccc; /* Old browsers */
+	background: -moz-linear-gradient(top, #ccc 0%, #ddd 52%, #aaa 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ccc), color-stop(52%,#ccc), color-stop(100%,#fefefe)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ccc 0%,#ddd 52%,#aaa 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ccc 0%,#ddd 52%,#aaa 100%); /* Opera11.10+ */
+	background: -ms-linear-gradient(top, #ccc 0%,#ddd 52%,#aaa 100%); /* IE10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccc', endColorstr='#fefefe',GradientType=0 ); /* IE6-9 */
+	background: linear-gradient(top, #ccc 0%,#ddd 52%,#aaa 100%); /* W3C */
+
+}
+
+#controls {
+	width: auto; height: 200px;
+	position: absolute; bottom: 10px; left: 10px;
+}
+
+#controls label {
+	background-color: #fff;
+	border: 1px solid #000;
+	padding: 3px;
+	border-radius: 20px;	-moz-border-radius: 20px; -webkit-border-radius: 20px;
+	line-height: 20px;
+	display: inline-table;
+	text-align: center;
+	vertical-align: middle;
+	width: 20px; height: 20px;
+	position: relative;
+	bottom: 10px;
+}
+
+#buttons {
+	width: auto; height: auto;
+	position: absolute; top: 10px; left: 10px;
+}
+
+#colors {
+	width: auto; height: auto;
+	position: absolute; top: 200px; left: 10px;
+}
+
+canvas {margin: 0; padding: 0; display: block; position: absolute; top: 0; left: 0;}
+
+.slider {
+	display: inline-block;
+	width: 10px;
+	height: 100%;
+	margin: 0 10px 0 10px;
+}
+
+.red {
+	background-color: #500 !important;
+	border-color: #f00 !important;
+	color: #f00 !important;
+}
+
+.green {
+	background-color: #050 !important;
+	border-color: #0f0 !important;
+	color: #0f0 !important;
+}
+
+.blue {
+	background-color: #005 !important;
+	border-color: #aaf !important;
+	color: #aaf !important;
+}
